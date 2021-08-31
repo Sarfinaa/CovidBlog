@@ -1,0 +1,79 @@
+.infoBox--offdark{
+    flex: 0.5;
+    background-color:rgb(255,255,255) !important;
+    cursor: pointer;
+
+}
+.infoBox--ondark{
+  flex: 0.5;
+  background-color:rgb(22,22,37) !important;  
+  cursor: pointer;
+
+}
+
+.infoBox:not(:last-child){
+    margin-right: 15px;
+}
+.infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .infoBox--red-off,.infoBox--red-on {
+    color: rgb(255,82,118) !important;
+  }
+  .infoBox--green-off,.infoBox--green-on{
+    color: rgb(86,186,109) !important;
+  } 
+  .infoBox--grey-off,.infoBox--grey-on{
+    color: rgb(124,132,139) !important;
+  }
+
+
+  
+  .infoBox--red-off:hover,.redselect{
+    background-color: rgb(254,242,241) !important;
+  }
+   .infoBox--green-off:hover,.greenselect{
+    background-color: rgb(228,244,231) !important;
+  } .infoBox--grey-off:hover,.greyselect{
+    background-color: rgb(236,238,239) !important;
+  }
+  .infoBox--red-on:hover{
+    background-color: rgb(51,19,39) !important;
+  }
+   .infoBox--green-on:hover{
+    background-color:rgb(24,40,40)!important;
+  } .infoBox--grey-on:hover{
+    background-color: rgb(32,34,48) !important;
+  }
+  .redselect-dark{
+background-color: rgb(51,19,39) !important;
+  }
+  .greenselect-dark{
+    background-color: rgb(19,34,64) !important;
+  }
+  .greyselect-dark{
+    background-color: rgb(32,34,48) !important;
+  }
+  
+  .infoBox__cases--red{
+color:rgb(255,6,57) !important ;
+  }.infoBox__cases--green{
+color:rgb(40,167,69) !important;
+  }
+.infoBox__cases--grey{
+  color:rgb(109,118,126) !important;
+}
+  .infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+  }
+
+  /* .darkShadow{
+    box-shadow: 0 4px 8px 0#08F7FE, 0 6px 20px 0 #08F7FE !important;
+  } */

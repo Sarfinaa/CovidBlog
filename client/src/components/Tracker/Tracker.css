@@ -1,0 +1,92 @@
+*{
+    margin:0;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .app{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+  
+  }
+  .selecton{
+  color:rgb(149,114,184) !important;
+  border: rgb(149,114,184) 1px solid !important;
+  }
+  
+  .selectoff{
+    color: black !important;
+  }
+  .Tablehead{
+    color:rgb(0,123,255);
+  }
+  .Graphhead{
+    color:rgb(62,57,174);
+  }
+  
+  .onDarkMode{
+    background-color:rgb(22,22,37)!important;
+  }
+  .offDarkMode{
+    background-color: rgb(255,255,255) !important;
+  }
+  /* .darkShadow{
+    box-shadow: 0 4px 8px 0#08F7FE, 0 6px 20px 0 #08F7FE !important;
+  } */
+  .app__header >h1{
+    color: #fc3c3c;
+    font-size: 2rem;
+  }
+  .app__header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  .app_dropdown{
+    background-color: white;
+  
+  }
+  .app__right{
+    display: flex;
+    flex-direction: column;
+  }
+  .app__right .MuiCardContent-root{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .app__graph{
+    flex: 1;
+   margin:10px 0;
+  }
+  .app__graphTitle{
+    margin-top: 20px;
+  }
+  
+  .app__left{
+    flex: 0.9;
+  }
+  .app__stats{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width:990px) {
+    .app{
+      flex-direction: column;
+    }
+  } 
